@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    
+    <bitmaputil.MyScrollView2
+    	android:id="@+id/my_scroll_view1"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent" >
+    	
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+            
+            <LinearLayout 
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:background="@color/white">
+        
+        		<ImageView 
+            		android:layout_width="wrap_content"
+        			android:layout_height="fill_parent"
+        			android:contentDescription="@string/app_name"
+        			android:layout_marginLeft="10dp"
+        			android:layout_marginStart="10dp"
+        			android:src="@drawable/yading"
+        			android:layout_gravity="center_vertical"
+        			android:background="@color/white"/>
+        
+        		<TextView
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="15dp"
+        			android:layout_marginStart="15dp"
+        			android:text="@string/yading" 
+        			android:layout_gravity="center_vertical"
+        			android:textSize="35sp"/>
+    		</LinearLayout>
+
+    		<LinearLayout
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal" 
+        		android:baselineAligned="false"
+        		android:background="@color/white">
+
+        		<LinearLayout
+            		android:id="@+id/first_column1"
+            		android:layout_width="0dp"
+            		android:layout_height="wrap_content"
+            		android:layout_weight="1"
+           	 		android:orientation="vertical" >
+        		</LinearLayout>
+
+        		<LinearLayout
+            		android:id="@+id/second_column1"
+            		android:layout_width="0dp"
+            		android:layout_height="wrap_content"
+            		android:layout_weight="1"
+            		android:orientation="vertical" >
+        		</LinearLayout>
+
+        		<LinearLayout
+            		android:id="@+id/third_column1"
+            		android:layout_width="0dp"
+            		android:layout_height="wrap_content"
+            		android:layout_weight="1"
+            		android:orientation="vertical" >
+       	 		</LinearLayout>
+    		</LinearLayout>
+        </LinearLayout>
+
+	</bitmaputil.MyScrollView2>
+
+</LinearLayout>

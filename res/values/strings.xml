@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShangriLa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">Let me tell you the REAL</string>
+    <string name="SingriLa">SingriLa</string>
+    <string name="title_activity_photos">Photos</string>
+    <string name="daocheng">稻城</string>
+    <string name="yading">亚丁</string>
+    <string name="title_activity_yading_photos">Yading_photos</string>
+    <string name="title_activity_daocheng_photos">Daocheng_photos</string>
+    <string name="border_top">Border Top</string>
+    <string name="border_bottom">Border Bottom</string>
+    <string name="image_url">Image Url</string>
+    <string name="image_urlyt">Image Urlyt</string>
+    <string name="title_activity_image_details">ImageDetailsActivity</string>
+    <string name="title_activity_brief">BriefActivity</string>
+    <string name="brief">简介</string>
+    <string name="location">位置</string>
+    <string name="location_detail">四川甘孜藏族自治州南部\n青藏高原东部\n海拔3000—4000</string>
+    <string name="time">最佳旅游时间</string>
+    <string name="time_detail">每年5月-10月\n每个季节都有独特的风光，但是冬季天气恶劣，路况不好，不推荐。</string>
+    <string name="play_time">建议游玩时间</string>
+    <string name="play_time_detail">3—6天</string>
+    <string name="clothes">穿衣指南</string>
+    <string name="clothes_detail">稻城昼夜温差较大。夏季进入带一件厚外套和长袖即可，正午较热。春秋进入时要较厚的衣服。要带防水性能较好的雨衣。冲锋衣最佳。鞋最好是旅游鞋或者登山鞋，有条件的可以买防雨鞋套。</string>
+    <string name="introduce">概述</string>
+    <string name="introduce_detail">“最后的香格里拉”名副其实，景色美的令人窒息。它也被称为“蔚蓝星球上最后一片净土”。1928年，美国探险家约瑟夫·洛克首先来到这里，拍下了当时在美国《国家地理杂志》引起了巨大轰动的照片。后来的英国畅销书作家詹姆斯·希尔顿的长篇小说《消失的地平线》让亚丁闻名遐迩。日后稻城亚丁逐渐成为背包客们必去的景点之一。</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_image_detail_activity_yt">ImageDetailActivityYT</string>
+
+</resources>
